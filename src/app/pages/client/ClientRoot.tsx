@@ -202,7 +202,7 @@ export function ClientRoot({ children }: ClientRootProps) {
             {(capabilities, mediaConfig) => (
               <CapabilitiesProvider value={capabilities ?? {}}>
                 <MediaConfigProvider value={mediaConfig ?? {}}>
-                  Otagh
+                  {children}
                   <Windows />
                   <Dialogs />
                   <ReusableContextMenu />
