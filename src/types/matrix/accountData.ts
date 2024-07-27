@@ -3,7 +3,7 @@ export enum AccountDataEvent {
   Direct = 'm.direct',
   IgnoredUserList = 'm.ignored_user_list',
 
-  OtaghSpaces = 'in.cinny.spaces',
+  OtaghSpaces = 'in.otagh.spaces',
 
   ElementRecentEmoji = 'io.element.recent_emoji',
 
