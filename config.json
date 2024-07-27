@@ -5,19 +5,8 @@
   ],
   "allowCustomHomeservers": true,
 
-  "featuredCommunities": {
-    "openAsDefault": false,
-    "spaces": [
-      "#tests.xmr.se"
-    ],
-    "rooms": [
-      "#tests.xmr.se"
-    ],
-    "servers": ["xmr.se"]
-  },
-
   "hashRouter": {
-    "enabled": false,
+    "enabled": true,
     "basename": "/"
   }
 }
