@@ -1,13 +1,13 @@
 const cons = {
   version: '4.0.3',
   secretKey: {
-    ACCESS_TOKEN: 'otagh_access_token',
-    DEVICE_ID: 'otagh_device_id',
-    USER_ID: 'otagh_user_id',
-    BASE_URL: 'otagh_hs_base_url',
+    ACCESS_TOKEN: 'cinny_access_token',
+    DEVICE_ID: 'cinny_device_id',
+    USER_ID: 'cinny_user_id',
+    BASE_URL: 'cinny_hs_base_url',
   },
   DEVICE_DISPLAY_NAME: 'Otagh Chat',
-  IN_CINNY_SPACES: 'in.otagh.spaces',
+  IN_CINNY_SPACES: 'in.cinny.spaces',
   supportEventTypes: [
     'm.room.create',
     'm.room.message',
