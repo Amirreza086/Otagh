@@ -413,19 +413,16 @@ function AboutSection() {
           <img width="60" height="60" src={CinnySVG} alt="Cinny logo" />
           <div>
             <Text variant="h2" weight="medium">
-              Cinny
+              Otagh
               <span
                 className="text text-b3"
                 style={{ margin: '0 var(--sp-extra-tight)' }}
               >{`v${cons.version}`}</span>
             </Text>
-            <Text>Yet another matrix client</Text>
+            <Text>Yet another messenger decentralized client application</Text>
+            <Text>created by Amirreza Eskandarzadeh</Text>
 
             <div className="settings-about__btns">
-              <Button onClick={() => window.open('https://github.com/ajbura/cinny')}>
-                Source code
-              </Button>
-              <Button onClick={() => window.open('https://cinny.in/#sponsor')}>Support</Button>
               <Button onClick={() => clearCacheAndReload(mx)} variant="danger">
                 Clear cache & reload
               </Button>
