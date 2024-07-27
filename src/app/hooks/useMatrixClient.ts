@@ -7,6 +7,6 @@ export const MatrixClientProvider = MatrixClientContext.Provider;
 
 export function useMatrixClient(): MatrixClient {
   const mx = useContext(MatrixClientContext);
-  if (!mx) throw new Error('MatrixClient not initialized!');
+  if (!mx) throw new Error('Client not initialized!');
   return mx;
 }
