@@ -48,7 +48,7 @@ function AuthLayoutLoading({ message }: { message: string }) {
     <Box justifyContent="Center" alignItems="Center" gap="200">
       <Spinner size="100" variant="Secondary" />
       <Text align="Center" size="T300">
-        {message}
+        Otagh
       </Text>
     </Box>
   );
@@ -58,7 +58,7 @@ function AuthLayoutError({ message }: { message: string }) {
   return (
     <Box justifyContent="Center" alignItems="Center" gap="200">
       <Text align="Center" style={{ color: color.Critical.Main }} size="T300">
-        {message}
+        Otagh
       </Text>
     </Box>
   );
