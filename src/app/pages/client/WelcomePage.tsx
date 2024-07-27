@@ -15,47 +15,14 @@ export function WelcomePage() {
         <PageHeroSection>
           <PageHero
             icon={<img width="70" height="70" src={CinnySVG} alt="Cinny Logo" />}
-            title="Welcome to Cinny"
+            title="Welcome to Otagh"
             subTitle={
               <span>
-                Yet another matrix client.{' '}
-                <a
-                  href="https://github.com/cinnyapp/cinny/releases"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  v4.0.3
-                </a>
+                Yet another messenger client application,
+                By Amirreza Eskandarzadeh.
               </span>
             }
           >
-            <Box justifyContent="Center">
-              <Box grow="Yes" style={{ maxWidth: toRem(300) }} direction="Column" gap="300">
-                <Button
-                  as="a"
-                  href="https://github.com/cinnyapp/cinny"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  before={<Icon size="200" src={Icons.Code} />}
-                >
-                  <Text as="span" size="B400" truncate>
-                    Source Code
-                  </Text>
-                </Button>
-                <Button
-                  as="a"
-                  href="https://cinny.in/#sponsor"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  fill="Soft"
-                  before={<Icon size="200" src={Icons.Heart} />}
-                >
-                  <Text as="span" size="B400" truncate>
-                    Support
-                  </Text>
-                </Button>
-              </Box>
-            </Box>
           </PageHero>
         </PageHeroSection>
       </Box>
