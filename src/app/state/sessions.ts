@@ -30,16 +30,16 @@ const FALLBACK_STORE_NAME: SessionStoreName = {
 } as const;
 
 const removeFallbackSession = () => {
-  localStorage.removeItem('cinny_hs_base_url');
-  localStorage.removeItem('cinny_user_id');
-  localStorage.removeItem('cinny_device_id');
-  localStorage.removeItem('cinny_access_token');
+  localStorage.removeItem('otagh_hs_base_url');
+  localStorage.removeItem('otagh_user_id');
+  localStorage.removeItem('otagh_device_id');
+  localStorage.removeItem('otagh_access_token');
 };
 const getFallbackSession = (): Session | undefined => {
-  const baseUrl = localStorage.getItem('cinny_hs_base_url');
-  const userId = localStorage.getItem('cinny_user_id');
-  const deviceId = localStorage.getItem('cinny_device_id');
-  const accessToken = localStorage.getItem('cinny_access_token');
+  const baseUrl = localStorage.getItem('otagh_hs_base_url');
+  const userId = localStorage.getItem('otagh_user_id');
+  const deviceId = localStorage.getItem('otagh_device_id');
+  const accessToken = localStorage.getItem('otagh_access_token');
 
   if (baseUrl && userId && deviceId && accessToken) {
     const session: Session = {
