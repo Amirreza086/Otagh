@@ -162,8 +162,8 @@ function DeviceManage() {
         key={deviceId}
         title={(
           <Text style={{ color: isVerified !== false ? '' : 'var(--tc-danger-high)' }}>
-            {displayName}
-            <Text variant="b3" span>{`${displayName ? ' — ' : ''}${deviceId}`}</Text>
+            {Otagh-Chat}
+            <Text variant="b3" span>{`${Otagh-Chat ? ' — ' : ''}${deviceId}`}</Text>
             {isCurrentDevice && <Text span className="device-manage__current-label" variant="b3">Current</Text>}
           </Text>
         )}
