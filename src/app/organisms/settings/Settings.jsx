@@ -410,16 +410,16 @@ function AboutSection() {
       <div className="settings-about__card">
         <MenuHeader>Application</MenuHeader>
         <div className="settings-about__branding">
-          <img width="60" height="60" src={CinnySVG} alt="Cinny logo" />
+          <img width="60" height="60" src={CinnySVG} alt="Bird logo" />
           <div>
             <Text variant="h2" weight="medium">
-              Otagh
+              Bird of Resistance
               <span
                 className="text text-b3"
                 style={{ margin: '0 var(--sp-extra-tight)' }}
               >{`v${cons.version}`}</span>
             </Text>
-            <Text>Yet another messenger decentralized client application</Text>
+            <Text>Yet another messenger decentralized client application For freedom of expression of the Resistance Front and the oppressed of the world</Text>
             <Text>created by Amirreza Eskandarzadeh</Text>
 
             <div className="settings-about__btns">
