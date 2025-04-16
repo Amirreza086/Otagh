@@ -14,11 +14,12 @@ export function WelcomePage() {
       >
         <PageHeroSection>
           <PageHero
-            icon={<img width="70" height="70" src={CinnySVG} alt="Cinny Logo" />}
-            title="Welcome to Otagh"
+            icon={<img width="70" height="70" src={CinnySVG} alt="bird Logo" />}
+            title="Welcome to Bird of Resistance"
             subTitle={
               <span>
-                Yet another messenger client application,
+                Yet another messenger client application, For freedom of expression of the Resistance Front and the oppressed of the world
+                <br></br>
                 By Amirreza Eskandarzadeh.
               </span>
             }
